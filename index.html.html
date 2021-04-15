@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <center>
+        <ul class="menu">
+            <li class="links"><a href="#welcome">Home</a></li>
+            <li class="links"><a href="#grid">Gride View</a></li>
+            <li class="links"><a href="sliding gallary">Slide View</a></li>
+            <li class="links"><a href="contact">Contact</a></li>
+        </ul>
+    </center>
+    <div class="container">
+        <section id="welcome">
+            <img id="image1" src="http://eskipaper.com/images/avengers-wallpaper-5.jpg">
+        </section>
+    </div>
+    <section id="grid">
+        <h1>Grid View</h1>
+        <a> <img src="america.jpg"></a>
+        <a><img src="iron.jpg"></a>
+        <a><img src="hulk.jpg"></a>
+        <a><img src="natasha.jpg"></a>
+        <br>
+        <br>
+        <a> <img src="thor.jpg"></a>
+        <a><img src="vision.jpg"></a>
+        <a><img src="scar.jpg"></a>
+        <a><img src="ant.jpg"></a>
+    </section>
+    <section id="sliding gallary">
+        <h1>Sliding Gallary</h1>
+        <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a href="#" target="_blank">
+                            <img src="hulk.jpg" class="img-responsive"></a>
+                        <div class="carousel-content">
+                            <p>Hulk</p>
+                        </div>
+                    </center>
+                </div>
+
+
+                <div class="item">
+                    <center>
+                        <a href="#" target="_blank">
+                            <img src="ant.jpg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p>Ant Man</p>
+                            </div>
+                        </a>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <a href="#" target="_blank">
+                            <img src="america.jpg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p>Captain America</p>
+                            </div>
+                        </a>
+                    </center>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span></a>
+
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>
